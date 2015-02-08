@@ -34,3 +34,8 @@ Install required ruby packages with bundler:
 ## Upload to server
 
     rsync
+
+## Help?
+
+* HAML: http://www.cheatography.com/specialbrand/cheat-sheets/haml/
+* CSS: http://materializecss.com/grid.html
