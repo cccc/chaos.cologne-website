@@ -1,12 +1,12 @@
 # Chaos Cologne
 
-webfrontend
+static site for http://chaos.cologne
 
 ## Install
 
 ### Ruby Version
 
-ruby 2.1
+ruby 2.2 (lower should be fine)
 
 ### Instructions
 
@@ -17,7 +17,7 @@ Install required ruby packages with bundler:
 
 ## Nanoc
 
-[Nanoc](http://nanoc.ws) is a static site generator
+[Nanoc](http://nanoc.ws) is a static site generator.
 
 ### Compile static pages
 
@@ -29,5 +29,8 @@ Install required ruby packages with bundler:
 
 ### Watch output directory for changes    
 
-   guard
+    guard
 
+## Upload to server
+
+    rsync
