@@ -1,0 +1,120 @@
+---
+title: home
+---
+
+#index-banner.parallax-container
+  .section.no-pad-bot
+    .container
+      %br/
+      %br/
+      %h1.header.center.orange-text.text-lighten-2 Chaos Cologne - Edge of Control
+      .row.center
+        %h5.header.col.s12.light A conference for hacktivists, artitsts and makers
+      .row.center
+        %a#download-button.btn-large.waves-effect.waves-light.orange.lighten-1{:href => "/cfp.html"} Call for Participation
+      %br/
+      %br/
+  .parallax
+    %img{:alt => "Unsplashed background img 2", :src => "images/background1.jpg"}/
+
+.container
+  .section
+    / Icon Section
+    .row
+      .col.s12.m4
+        .icon-block
+          %h2.center.grey-text
+            %i.mdi-social-people
+          %h5.center Conference
+          %p.light
+            The conference brings “hackers and painters” together to celebrate what both cultures have in common.
+            We artfully break through barriers of conventions.
+            We have fun with things.
+            We build art on the edges of control.
+
+
+      .col.s12.m4
+        .icon-block
+          %h2.center.grey-text
+            %i.mdi-social-domain
+          %h5.center Location
+          %p.light
+            We live in a world of chances and changes.
+            We are in constant need of information and inspiration
+            to find and create our ways through a giant maze
+            of borders, barriers and expectations.
+
+            %br/
+            Join Us.
+            May 16th 'til 17th
+            KHM Cologne
+      .col.s12.m4
+        .icon-block
+          %h2.center.grey-text
+            %i.mdi-hardware-gamepad
+          %h5.center Participate
+          %p.light
+            We share, we steal.
+            We build and rebuild.
+            We create.
+            Find your way to the maze, have fun, conquer it
+            and become what you are.
+
+.parallax-container.valign-wrapper
+  .section.no-pad-bot
+    .container
+      .row.center
+        %h5.header.col.s12.light Be aware! This is not an Exhibition. This is a Challenge.
+
+  .parallax
+    %img{:alt => "Unsplashed background img 2", :src => "images/background3.jpg"}/
+
+.container
+  .section
+    .row
+      .col.s12.center
+        %h4 Contact Us
+    .row
+      .col.s12.m6
+        .icon-block
+          %h2.center.grey-text
+            %i.mdi-communication-email
+          %h5.center orga@koeln.ccc.de
+      .col.s12.m6
+        .icon-block
+          %h2.center.grey-text
+            %i.mdi-social-pages
+          %h5.center
+            %a{href: '//twitter.com/chaos_cologne'} @chaos_cologne
+
+.parallax-container.valign-wrapper
+  .section.no-pad-bot
+    .container
+      .row.center
+        %h5.header.col.s12.light A cooperation between Academy of Media Arts Cologne and Chaos Computer Club Cologne
+  .parallax
+    %img{:alt => "Unsplashed background img 3", :src => "images/background2.jpg"}/
+
+.container
+  .section
+    .row
+      .col.s10.offset-s2.center
+        = render '/partials/logo'
+
+%footer.page-footer.orange
+  .container
+    .row
+      .col.l6.s12
+        %h5.white-text Travel
+        %iframe#osm{:src => "//www.openstreetmap.org/export/embed.html?bbox=6.954528093338013%2C50.9307312617681%2C6.96557879447937%2C50.93593767229412&amp;layer=mapnik&amp;marker=50.93333453988655%2C6.960053443908691"}
+        %br/
+        %span.small
+          %a{:href => "//www.openstreetmap.org/?mlat=50.93333&amp;mlon=6.96005#map=17/50.93333/6.96005"} View Larger Map
+
+      .col.l6.s12
+        %h5.white-text Cooperation
+        %a{href: '//khm.de'}
+          %img{src: 'images/logo_khm.png', alt: 'Kunsthochschule für Medien Logo'}
+        %a{href: '//koeln.ccc.de'}
+          %img#c4_logo{src: 'images/hexogen.svg', alt: 'Chaos Computer Club Cologne Logo'}
+

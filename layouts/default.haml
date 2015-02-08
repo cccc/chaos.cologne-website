@@ -1,0 +1,28 @@
+!!!
+%html{:lang => "en"}
+  %head
+    %title Chaos Cologne
+    %meta{'http-equiv': 'Content-Type', content: 'text/html; charset=UTF-8'}
+    %meta{name: "viewport", content: "width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"}
+
+    %link{type: "text/css", rel: "stylesheet", href: "css/materialize.css", media: "screen,projection"}
+    %link{type: "text/css", rel: "stylesheet", href: "css/style.css", media: "screen,projection"}
+
+  %body
+    %nav.white{role: 'navigation'}
+      .container
+        .nav-wrapper
+          %a#logo-container.brand-logo{href: '/'} Chaos Cologne, 16.-17. May
+          %ul#nav-mobile.right.side-nav
+            %li
+              %a{href: 'cfp.html'} Call for Participation
+            %li
+              %a{href: 'about.html'} Imprint
+          %a.button-collapse{href: "#", data: { activates: "nav-mobile" }}
+            %i.mdi-navigation-menu
+    = yield
+    = render '/partials/footer'
+    / Scripts
+    %script{type: "text/javascript", src: "js/jquery.min.js"}
+    %script{type: "text/javascript", src: "js/materialize.min.js"}
+    %script{type: "text/javascript", src: "js/init.js"}
