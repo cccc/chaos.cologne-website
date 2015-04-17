@@ -2,11 +2,16 @@
 title: Info
 ---
 
-.container
-  .section
-    .row
+#index-banner.parallax-container
+  .section.no-pad-bot
+    .container
       %br/
-      %h1.header.center.orange-text.text-lighten-2 Info
+      %br/
+      %h1.header.center.red-text.text-lighten-2 Info
+  .parallax
+    %img{:alt => "Unsplashed background img 2", :src => "images/background3.jpg"}/
+
+.container
 
   .section
     .row
@@ -53,3 +58,29 @@ title: Info
         %h5 Reservation and Presale
         %p.light
           Since space is limited, we recommend to make a reservation with our friendly reservation system, soon to be online. More details to follow here soon.
+
+    .row
+      .col.s12
+        %h5 Logo and Banners
+        %p.light
+          %ul
+            %li
+              Logo
+              %a{:href => "/images/1c2_logo.png"} png
+              %a{:href => "/images/1c2_logo.png"} svg
+            %li
+              Banner
+              %a{:href => "/images/1c2_banner.png"} png
+              %a{:href => "/images/1c2_banner.svg"} svg
+
+    .row
+      .col.s12
+        %h5 Texts about this event
+        %p.light
+          %ul
+            %li
+              %a{:href => "/cfp.html"} Old Call for Participation
+            %li
+              %a{:href => "http:///events.ccc.de"} Blog Post auf events.ccc.de
+            %li
+              Press Release (KHM)
