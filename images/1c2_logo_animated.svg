@@ -1,0 +1,115 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 7 27 12" id="main_logo">
+  <style type="text/css">
+    path { fill: #fff; stroke-width: 2; stroke-opacity: 0 }
+    #bg { fill: #000 }
+    #one, #cee, #two {
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-duration: 5s;
+      -webkit-animation-iteration-count: infinite
+    }
+    #one {
+      stroke: #f00;
+      animation-name: red;
+      -webkit-animation-name: red
+    }
+    #cee {
+      stroke: #0f0;
+      animation-name: green;
+      -webkit-animation-name: green
+    }
+    #two {
+      stroke: #66f;
+      animation-name: blue;
+      -webkit-animation-name: blue
+    }
+    #dot1 {
+      fill: #f0f;
+      animation: dotwalk 23s linear 5s infinite alternate;
+      -webkit-animation: dotwalk 23s linear 5s infinite alternate
+    }
+    @keyframes red {
+      from { fill: #fff; stroke-opacity: 0 }
+      25% { fill: #f00; stroke-opacity: 0.5 }
+      50% { fill: #fff; stroke-opacity: 0  }
+    }
+    @keyframes green {
+      25% { fill: #fff; stroke-opacity: 0 }
+      50% { fill: #0f0; stroke-opacity: 0.5 }
+      75% { fill: #fff; stroke-opacity: 0 }
+    }
+    @keyframes blue {
+      50% { fill: #fff; stroke-opacity: 0 }
+      75% { fill: #66f; stroke-opacity: 0.5 }
+      to { fill: #fff; stroke-opacity: 0 }
+    }
+    @keyframes dotwalk {
+      5% { transform: translate(0px, 3px) }
+      33% { transform: translate(-16px, 3px) }
+      37% { transform: translate(-16px, 1px) }
+      40% { transform: translate(-14px, 1px) }
+      43% { transform: translate(-14px, -2px) }
+      45% { transform: translate(-15px, -2px) }
+      47% { transform: translate(-15px, -4px) }
+      49% { transform: translate(-14px, -4px) }
+      51% { transform: translate(-14px, -5px) }
+      56% { transform: translate(-11px, -5px) }
+      58% { transform: translate(-11px, -4px) }
+      63% { transform: translate(-8px, -4px) }
+      65% { transform: translate(-8px, -5px) }
+      75% { transform: translate(-2px, -5px) }
+      77% { transform: translate(-2px, -4px) }
+      81% { transform: translate(0px, -4px) }
+      86% { transform: translate(0px, -1px) }
+      93% { transform: translate(-5px, -1px) }
+      to { transform: translate(0px, -1px) }
+    }
+
+    @-webkit-keyframes red {
+      from { fill: #fff; stroke-opacity: 0 }
+      25% { fill: #f00; stroke-opacity: 0.5 }
+      50% { fill: #fff; stroke-opacity: 0  }
+    }
+    @-webkit-keyframes green {
+      25% { fill: #fff; stroke-opacity: 0 }
+      50% { fill: #0f0; stroke-opacity: 0.5 }
+      75% { fill: #fff; stroke-opacity: 0 }
+    }
+    @-webkit-keyframes blue {
+      50% { fill: #fff; stroke-opacity: 0 }
+      75% { fill: #66f; stroke-opacity: 0.5 }
+      to { fill: #fff; stroke-opacity: 0 }
+    }
+    @-webkit-keyframes dotwalk {
+      5% { transform: translate(0px, 3px) }
+      33% { transform: translate(-16px, 3px) }
+      37% { transform: translate(-16px, 1px) }
+      40% { transform: translate(-14px, 1px) }
+      43% { transform: translate(-14px, -2px) }
+      45% { transform: translate(-15px, -2px) }
+      47% { transform: translate(-15px, -4px) }
+      49% { transform: translate(-14px, -4px) }
+      51% { transform: translate(-14px, -5px) }
+      56% { transform: translate(-11px, -5px) }
+      58% { transform: translate(-11px, -4px) }
+      63% { transform: translate(-8px, -4px) }
+      65% { transform: translate(-8px, -5px) }
+      75% { transform: translate(-2px, -5px) }
+      77% { transform: translate(-2px, -4px) }
+      81% { transform: translate(0px, -4px) }
+      86% { transform: translate(0px, -1px) }
+      93% { transform: translate(-5px, -1px) }
+      to { transform: translate(0px, -1px) }
+    }
+  </style>
+  <g id="logo">
+    <rect id="bg" x="0.1" y="8" width="26.8" height="10" />
+    <path id="top-border" d="m 0,14 2,0 0,-2 -1,0 0,-3 1,0 0,-1 4,0 0,1 2,0 0,-1 7,0 0,1 2,0 0,-1 8,0 0,1 1,0 0,1 1,0 L 27,0 0,0 z" />
+    <path id="dot1" d="m 16,13 1,0 0,1 -1,0 z" />
+    <path id="dot2" d="m 26,14 1,0 0,1 -1,0 z" />
+    <path id="one" d="m 2,10 1,0 0,-1 2,0 0,6 2,0 0,1 -6,0 0,-1 2,0 0,-4 -1,0 z" />
+    <path id="cee" d="m 8,10 1,0 0,-1 5,0 0,1 1,0 0,1 -2,0 0,-1 -3,0 0,5 3,0 0,-1 2,0 0,1 -1,0 0,1 -5,0 0,-1 -1,0 z" />
+    <path id="two" d="m 17,12 0,-2 1,0 0,-1 5,0 0,1 1,0 0,2 -1,0 0,1 -1,0 0,1 -1,0 0,1 4,0 0,1 -8,0 0,-1 1,0 0,-1 1,0 0,-1 1,0 0,-1 1,0 0,-1 1,0 0,-1 -3,0 0,2 z" />
+    <path id="bottom-border" d="m 0,27 27,0 0,-9 -10,0 0,-1 -1,0 0,1 -15,0 0,-1 -1,0 z" />
+  </g>
+</svg>

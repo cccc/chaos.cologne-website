@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   viewBox="0 7 1400 340"
+   id="main_logo"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="banner_animated.svg"
+   width="1400"
+   height="340">
+  <metadata
+     id="metadata4312">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs4310">
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient4170"
+       id="linearGradient4176"
+       x1="357.32187"
+       y1="-67.863335"
+       x2="317.72955"
+       y2="-18.152996"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(4.329845,0,0,2.6378068,-748.87183,202.82147)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient4170">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop4172" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop4174" />
+    </linearGradient>
+  </defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1916"
+     inkscape:window-height="1037"
+     id="namedview4308"
+     showgrid="false"
+     inkscape:zoom="1.0279237"
+     inkscape:cx="481.12627"
+     inkscape:cy="262.35607"
+     inkscape:window-x="0"
+     inkscape:window-y="20"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer4"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       position="17.197452,84.611465"
+       orientation="1,0"
+       id="guide5075" />
+    <sodipodi:guide
+       position="703.35956,433.88432"
+       orientation="1,0"
+       id="guide5077" />
+    <sodipodi:guide
+       position="1217.0163,332.4663"
+       orientation="0,1"
+       id="guide5114" />
+    <sodipodi:guide
+       position="1383.0988,251.99185"
+       orientation="1,0"
+       id="guide5116" />
+  </sodipodi:namedview>
+  <style
+     type="text/css"
+     id="style4297">
+    path { fill: #fff; stroke-width: 2; stroke-opacity: 0 }
+    #bg { fill: #000 }
+    #one, #cee, #two {
+      animation-duration: 5s;
+      animation-iteration-count: infinite;
+      -webkit-animation-duration: 5s;
+      -webkit-animation-iteration-count: infinite
+    }
+    #one {
+      stroke: #f00;
+      animation-name: red;
+      -webkit-animation-name: red
+    }
+    #cee {
+      stroke: #0f0;
+      animation-name: green;
+      -webkit-animation-name: green
+    }
+    #two {
+      stroke: #66f;
+      animation-name: blue;
+      -webkit-animation-name: blue
+    }
+    #dot1 {
+      fill: #f0f;
+      animation: dotwalk 23s linear 5s infinite alternate;
+      -webkit-animation: dotwalk 23s linear 5s infinite alternate
+    }
+    @keyframes red {
+      from { fill: #fff; stroke-opacity: 0 }
+      25% { fill: #f00; stroke-opacity: 0.5 }
+      50% { fill: #fff; stroke-opacity: 0  }
+    }
+    @keyframes green {
+      25% { fill: #fff; stroke-opacity: 0 }
+      50% { fill: #0f0; stroke-opacity: 0.5 }
+      75% { fill: #fff; stroke-opacity: 0 }
+    }
+    @keyframes blue {
+      50% { fill: #fff; stroke-opacity: 0 }
+      75% { fill: #66f; stroke-opacity: 0.5 }
+      to { fill: #fff; stroke-opacity: 0 }
+    }
+    @keyframes dotwalk {
+      5% { transform: translate(0px, 3px) }
+      33% { transform: translate(-16px, 3px) }
+      37% { transform: translate(-16px, 1px) }
+      40% { transform: translate(-14px, 1px) }
+      43% { transform: translate(-14px, -2px) }
+      45% { transform: translate(-15px, -2px) }
+      47% { transform: translate(-15px, -4px) }
+      49% { transform: translate(-14px, -4px) }
+      51% { transform: translate(-14px, -5px) }
+      56% { transform: translate(-11px, -5px) }
+      58% { transform: translate(-11px, -4px) }
+      63% { transform: translate(-8px, -4px) }
+      65% { transform: translate(-8px, -5px) }
+      75% { transform: translate(-2px, -5px) }
+      77% { transform: translate(-2px, -4px) }
+      81% { transform: translate(0px, -4px) }
+      86% { transform: translate(0px, -1px) }
+      93% { transform: translate(-5px, -1px) }
+      to { transform: translate(0px, -1px) }
+    }
+
+    @-webkit-keyframes red {
+      from { fill: #fff; stroke-opacity: 0 }
+      25% { fill: #f00; stroke-opacity: 0.5 }
+      50% { fill: #fff; stroke-opacity: 0  }
+    }
+    @-webkit-keyframes green {
+      25% { fill: #fff; stroke-opacity: 0 }
+      50% { fill: #0f0; stroke-opacity: 0.5 }
+      75% { fill: #fff; stroke-opacity: 0 }
+    }
+    @-webkit-keyframes blue {
+      50% { fill: #fff; stroke-opacity: 0 }
+      75% { fill: #66f; stroke-opacity: 0.5 }
+      to { fill: #fff; stroke-opacity: 0 }
+    }
+    @-webkit-keyframes dotwalk {
+      5% { transform: translate(0px, 3px) }
+      33% { transform: translate(-16px, 3px) }
+      37% { transform: translate(-16px, 1px) }
+      40% { transform: translate(-14px, 1px) }
+      43% { transform: translate(-14px, -2px) }
+      45% { transform: translate(-15px, -2px) }
+      47% { transform: translate(-15px, -4px) }
+      49% { transform: translate(-14px, -4px) }
+      51% { transform: translate(-14px, -5px) }
+      56% { transform: translate(-11px, -5px) }
+      58% { transform: translate(-11px, -4px) }
+      63% { transform: translate(-8px, -4px) }
+      65% { transform: translate(-8px, -5px) }
+      75% { transform: translate(-2px, -5px) }
+      77% { transform: translate(-2px, -4px) }
+      81% { transform: translate(0px, -4px) }
+      86% { transform: translate(0px, -1px) }
+      93% { transform: translate(-5px, -1px) }
+      to { transform: translate(0px, -1px) }
+    }
+  </style>
+  <g
+     inkscape:groupmode="layer"
+     id="layer4"
+     inkscape:label="logo"
+     transform="translate(738.86627,164.793)">
+    <g
+       id="logo"
+       transform="matrix(24.841426,0,0,24.841426,-721.6051,-348.64399)">
+      <path
+         style="fill:#000000;stroke-width:2;stroke-opacity:0"
+         d="m 66.625,5.1289062 0,25.7128908 -25.714844,0 0,77.140623 25.714844,0 0,51.42578 -48.855469,0 0,77.14063 23.140625,0 0,25.71289 385.701174,0 0,-25.71289 25.71289,0 0,25.71289 254.5625,0 0,-205.707032 -23.14063,0 0,-25.712891 -25.71484,0 0,-25.7128908 -205.70703,0 0,25.7128908 -51.42578,0 0,-25.7128908 -179.99414,0 0,25.7128908 -51.42578,0 0,-25.7128908 -102.85352,0 z"
+         transform="matrix(0.03889026,0,0,0.03889026,-0.59103402,7.8005385)"
+         id="bg"
+         inkscape:connector-curvature="0" />
+      <path
+         id="dot1"
+         d="m 16,13 1,0 0,1 -1,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ff00ff;stroke-width:2;stroke-opacity:0" />
+      <path
+         id="dot2"
+         d="m 26,14 1,0 0,1 -1,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke-width:2;stroke-opacity:0" />
+      <path
+         id="one"
+         d="m 2,10 1,0 0,-1 2,0 0,6 2,0 0,1 -6,0 0,-1 2,0 0,-4 -1,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#ff0000;stroke-width:2;stroke-opacity:0" />
+      <path
+         id="cee"
+         d="m 8,10 1,0 0,-1 5,0 0,1 1,0 0,1 -2,0 0,-1 -3,0 0,5 3,0 0,-1 2,0 0,1 -1,0 0,1 -5,0 0,-1 -1,0 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#00ff00;stroke-width:2;stroke-opacity:0" />
+      <path
+         id="two"
+         d="m 17,12 0,-2 1,0 0,-1 5,0 0,1 1,0 0,2 -1,0 0,1 -1,0 0,1 -1,0 0,1 4,0 0,1 -8,0 0,-1 1,0 0,-1 1,0 0,-1 1,0 0,-1 1,0 0,-1 1,0 0,-1 -3,0 0,2 z"
+         inkscape:connector-curvature="0"
+         style="fill:#ffffff;stroke:#6666ff;stroke-width:2;stroke-opacity:0" />
+    </g>
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer3"
+     inkscape:label="text"
+     style="display:inline;opacity:0.98000004"
+     transform="translate(738.86627,164.793)">
+    <rect
+       style="display:inline;opacity:0.92400004;fill:url(#linearGradient4176);fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect4168"
+       width="1400"
+       height="340"
+       x="-738.86627"
+       y="-157.793" />
+    <g
+       style="display:inline;stroke:none"
+       transform="matrix(1.8606845,0,0,1.8600045,-726.7754,-61.653314)"
+       id="g3034" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:57.78997803px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;display:inline;fill:#000000;fill-opacity:1;stroke:none"
+       x="-725.65192"
+       y="162.29959"
+       id="text4316"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         x="-725.65192"
+         y="162.29959"
+         id="tspan4188"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">Chaos Cologne</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:16.81163025px;line-height:125%;font-family:Monospace;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-222.37405"
+       y="160.92264"
+       id="text4206"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4208"
+         x="-222.37405"
+         y="160.92264"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:60px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">16 + 17 May 2015</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:8.51693535px;line-height:125%;font-family:Monospace;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       x="-5.1466985"
+       y="-45.024052"
+       id="text4220"
+       sodipodi:linespacing="125%"><tspan
+         sodipodi:role="line"
+         id="tspan4222"
+         x="-5.1466985"
+         y="-45.024052"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.38809204px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start">A conference for hacktivists,</tspan><tspan
+         sodipodi:role="line"
+         x="-5.1466985"
+         y="-19.538937"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.38809204px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4843">artists and makers. We artfully</tspan><tspan
+         sodipodi:role="line"
+         x="-5.1466985"
+         y="5.9461784"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.38809204px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4224">break through barriers of conventions.</tspan><tspan
+         sodipodi:role="line"
+         x="-5.1466985"
+         y="31.431293"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.38809204px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4847">We have fun with things. We build</tspan><tspan
+         sodipodi:role="line"
+         x="-5.1466985"
+         y="56.916409"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:20.38809204px;line-height:125%;font-family:Monospace;-inkscape-font-specification:'Monospace, Normal';text-align:start;writing-mode:lr-tb;text-anchor:start"
+         id="tspan4859">art on the edges of control.</tspan></text>
+    <image
+       style="display:inline"
+       y="-150.18736"
+       x="492.11972"
+       id="image4610"
+       xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIwAAABKCAMAAABer0ylAAAAY1BMVEUAAAD///////////////// //////////////////////////////////////////////////////////////////////////// //////////////////////////////////+aRQ2gAAAAIHRSTlMAAAgQGSEpMzpCSlJaZmtze4SM lJmlrbW9xczW3ubv9wAeNAAAAAZpSURBVGje7Zhpb9u8EoXnDHeKkqiFm2in+f+/8n7I0mxvG7sO 0OJmYAi0bIkPzgzniCIi4gtD0JcFs5BKKa21Vp8Krb8ORkhtnPOfj2H4OmGk9mGKF8SyfiGMHZc9 55xzLm8jf3A+t+MrYea99sc4PcTTqJ9OT2ef/9Dv7r4ORvmY+92Pz8f9/RfD/Li/JL5hvmH+IhgX yzfMf8D8NWkSyv89ynzDfBfwNU3vu2ZupQw+Fd8wN4QRVyzt/w+Y75r5dwr49AUw/EsJbteBP8WC K+3gUqOEsAxj+D2CWvlVmtT6SoMpPA/DdKPdAfTB/uR+ivBwWALMwU/fQMRkDuYXeUnLM9uabgVj mj8chhEhYJ5LhNqyMXcnLdtSPORWFwGV6qCOpXiyaZc0liRi3nYhF5YLLTvZPdlbKHO6c8CasO04 dns206FZlFWoHsbOe9YtcluNUudhPLjukkP3mtdmjkl2oTstK9chNPHnBayPsgPLhmVFdahOlV0i jdAVsulu4Ks5EZFppA52bea8EtEWaV3EwarRsqhzXIv8czswTdSEJSOvqB5tAFJCitAN+pB1wpbk 2TOZg3UXRD3ExkT7QnsUJ+E7ravs7u27yqvSpJoQfdbHXiNnj+LclgPP3arCqgl75KZ57CmoSrqJ aS1alLqJZaE1ci6pclxpLmvgP4dhCbBmaYWAZEgIrwFYCQmWYOkEQMpLlkSSlBdEbC0LQUIQWylI CCLt1A2U+SM74H/Gm/4y187/OIwWv/NJvty0rzNKxGY4hulpajEbAGN4ZgkJq3s9kR6IZ8VxGElX cbvtLfgYGUYbACwA2PvMsD8aICQAFmOBkUxKEJF46LJjp1wEWa/JdEkkxW1WEw93mZeAxYtURgZc LQZLTTApL1A1lYTV0pqyUmltMxFRqGtisjnvQh8U8t7cjWqmDcgT6sjnkQH4FFcuY+Y6qbPdktgL mh+qSkmerT0LIvJ3J0HcZ66LPGjucts/hEn97kKY6pAm5CAOAQC+6Bw2m2Vf4q7rhFC4+LnN26ga ySaJaGh7InmWNCV50LTTnD6CWcr5UmWOAWmX5yC6BADfON0717hOgrEVmSu3YWhSkO6suySi8RAt cYuyRdkpJor5/WrSw3ZcxnIP7Ba2peREkgBgdvgGu0HnvLDMeY/YHS05WZlYJkFEfifRvC51I50o RArxyncVH/QRCPHBQ/BDA5JggIikfNNWBLH8rUNdDAO+tAP/fnZcDfOOS/MbzpfXKy8A+tAjLjeO dwDD/sYPVJX/rYxsi3h1Do+HB0Jcost7GC7nkQE9SGivAHb2kKwGhhBOwjGrx/7L1hKFk31gefo8 Hn6CX2Ktb2F89g2Yj+w5rsVwyanD523nuaW2lczFc7ZEtNe68nYXH3ZSP2H+wOffXpYmNKPOBoAO xxwOuBPXaM8mFrSILuNuKhOFE8uzVY3xCobwVinQtTDiXLbTqg8AvoQyz5lllcc6RbGsSAOa1nlZ iGiuRN3rBxi8hHlLdjXM0rQOXbfVqrWYHvXJxzved2Ww7VxGdIN00kRkzmHs0vQ35U43TNPsAaxG peJE2haPqcTIYk0LDwGzw6IwdiIi8jk7Ugs/SPFTn8cl/TikSx4NL+54UHW+qOP9UQf+XcTENyX4 hTL8SiCGdNDyjXTvPfnp2c7JW8LIEgGk9JyuUDj6n7+b5gBiIuWfcyS2Wh/fFR3DLWH0uUu4uwa4 SQE2TAlGwkyPQNuRGFINcjsZ0rMlIs5Za0VqGojaQGryRBQGI4V2IxP5UVwJY0qasO0Z4z5X6Xts CXlCGOsIALKJahDPu0onZ/rkiMifBAB9rGWj5k1fj0jrEc+TPS11p7gvSVwLM2QuvnBbzMmlFVNG maCHnABgLjKtiJUoJDJ9ZCKaKkDYE+kui00rXJfdocz2YNdUH/3ZXgnTRN42Xbkv3osSEQpysM1v OwBuR6qd40Y0JSKVEhHMWQNIO0SXxeUI3WW3SLMvsFWfxsHzlTAd0701B5ZkHMY+tII6+sPUDGA4 KSGPYUlEw8lJEw8morVPk7V9TBmH9z3UDXsdz5M74DvSZuyVNSMC1AgZgDHNjLANjr3BuA6Owc4B cM5aIlqCWldFRIRh3y25PTIPmoY0MxB8meXAMkBMe+CbdGD+jNO8MCR+vKNzoZsXVvVlHfhXMERE DILbNvfi1vQ/lod+PeUhMHsAAAAASUVORK5CYII= "
+       preserveAspectRatio="none"
+       height="80.402512"
+       width="152.11284" />
+    <g
+       style="display:inline"
+       id="g4830"
+       transform="matrix(3.1039865,0,0,-3.1039865,-100.17884,764.55096)">
+      <g
+         transform="translate(40.457593,6.4390663)"
+         id="g4762">
+        <text
+           xml:space="preserve"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.25943375px;line-height:125%;font-family:Monospace;-inkscape-font-specification:Sans;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+           x="175.21924"
+           y="-192.45726"
+           id="text4673"
+           sodipodi:linespacing="125%"
+           transform="scale(1,-1)"><tspan
+             sodipodi:role="line"
+             id="tspan4675"
+             x="175.21924"
+             y="-192.45726"
+             style="text-align:center;text-anchor:middle">Chaos Computer Club</tspan><tspan
+             sodipodi:role="line"
+             x="175.21924"
+             y="-187.13297"
+             id="tspan4677"
+             style="text-align:center;text-anchor:middle">Cologne</tspan></text>
+      </g>
+      <image
+         transform="scale(1,-1)"
+         width="48.255299"
+         height="26.977373"
+         preserveAspectRatio="none"
+         xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAH8AAABHCAYAAAAulJjTAAAABmJLR0QA/wD/AP+gvaeTAAAACXBI WXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3wQFCQM7eBXTwAAAAZtJREFUeNrt3cFxgzAURVHIuKO0 QQtZpwMnJSTuIGu3QBupydllGEWAhT7YOOfujEH6T1dIsKJpAAAAADwmbekFbx9fl+Hvz/fXdsl/ 6f9N0zSX8/Ofc9qX73aq/xxLa6rJMlfH3LUl50ZleTL//y/kkw/yQT7IB/kgH+SDfJAP8kE+yAf5 IB/kg3yQD/JBPsgH+SAf5IN8kA/yQT7IB/kgH+SDfJAP8kE+yCffEJAP8kE+yAf5IB/kg3yQjx1z 2Kqj3McEUtIPKyxtp+b8tdssuXaN2t35mL7zu+74+2mOvj9Vz8Bhe7l2u+54SfsZqyHqeFSea/uq zTg3hiHy0yJzRZcyFToXaqyGqOO14kv7isgYOXlvtuyn4XKBIkPeAyV5tsp+GOt8jaWyZnnN1ZC7 m/Y2IUrHOdLLZsv+0raGy2bfn9rhgKWDtzfmxjmd+Nc8Q9zlq96tltBHmRi7f9UrCTR2R+99qa8Z p+jsd7vnj9UQdXzL2pbs+anodMtbbc9fS/hUmyVP/FHH18gSkbG0jV296gEAAGA7fgDh2njptjeE sAAAAABJRU5ErkJggg== "
+         id="image4827"
+         x="191.56894"
+         y="-228.95892" />
+    </g>
+  </g>
+</svg>
